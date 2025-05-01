@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: "Micha Denkt In Text" # Klarer und ansprechender Titel
 
 # Your name to show in the footer
-author: Some Person
+author: "Micha" # Konsistenter und persönlicher
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,11 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
+  Blog: "blog"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - Learn Markdown: "https://www.markdowntutorial.com/"
+  Contact: "contact" # Klar strukturierte Navigation
 
 ################
 # --- Logo --- #
@@ -35,7 +36,7 @@ navbar-links:
 avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+round-avatar: false # Professionelleres Design
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -50,25 +51,25 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "michael@dreimark.com"
+  github: "micha-github"
+  linkedin: "micha-linkedin" # LinkedIn für Networking hinzugefügt
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+#  facebook: deanattali
+#  twitter: "micha-twitter" # Angepasst für Branding
+#  patreon: DeanAttali
+  youtube: "@naqftw"
+#  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
 #  instagram: deanat78
-#  spotify: yourname
+  spotify: naqftw
 #  telephone: +14159998888
 #  steam: deanat78
-#  twitch: yourname
+  twitch: boomboxplay
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
@@ -102,25 +103,25 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "www.myawesomewebsite.com" # SEO-freundlich
 
 # Add the website title to the title of every page
 title-on-all-pages: true
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+excerpt_length: 25 # Kürzere Auszüge für bessere Übersicht
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
-feed_show_tags: true
+feed_show_tags: true # Tags für bessere Navigation
 
 # Add a search button to the navbar
-post_search: true
+post_search: true # Suchfunktion aktiviert
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: true # Benutzerfreundlichkeit verbessert
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -140,13 +141,13 @@ page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
+navbar-col: "#222222" # Dunkler für modernes Design
+navbar-text-col: "#FFFFFF" # Weißer Text für Kontrast
 navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-col: "#222222" # Konsistenz mit Navbar
+footer-text-col: "#BBBBBB" # Dezenterer Text
+footer-link-col: "#FFFFFF" # Einheitliches Design
+footer-hover-col: "#FF9900" # Auffälliger Hover-Effekt
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -171,7 +172,7 @@ footer-hover-col: "#0085A1"
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-#gtag: "G-XXXXXXXXXX"
+gtag: "G-XXXXXXXXXX" # Google Analytics für Tracking
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
@@ -197,7 +198,7 @@ footer-hover-col: "#0085A1"
 ####################
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: "myawesomewebsite" # Kommentare aktiviert
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
@@ -260,7 +261,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Berlin" # Lokale Zeitzone
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/

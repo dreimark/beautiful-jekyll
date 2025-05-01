@@ -11,6 +11,10 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
-  
+
+gem 'rake', '12.3.3' # Hinzugefügt, um die fehlende Abhängigkeit zu beheben
+gem 'appraisal', '2.5.0' # Hinzugefügt, um die fehlende Abhängigkeit zu beheben
+gem 'thor', '1.3.2' # Hinzugefügt, um die fehlende Abhängigkeit zu beheben
+
 gemspec
 
